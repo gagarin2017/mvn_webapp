@@ -24,7 +24,7 @@ Now you should have your very basic maven web project created. Go to the project
 
 * cd mvn_webapp
 
-/********** Project structure ***************
+/********** Project structure ***************<br>
 |
 --src
   |
@@ -42,8 +42,8 @@ Now you should have your very basic maven web project created. Go to the project
 |
 --pom.xml
 |
---README.md
-/********************************************
+--README.md<br>
+/********************************************<br>
 
 Update <build> section of the pom.xml file by adding webapp-runner plugin.
 
@@ -61,11 +61,11 @@ Hit Ctrl+C on windows to stop the local server.
 Now to deploy it to Heroku
 
 Create a Procfile
-/************* Contents of the Procfile ***************
+/************* Contents of the Procfile ***************<br>
 
 web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
-
-/*******************************************************
+<br>
+/******************************************************* <br>
 
 Add your changes to the Github
 $ git add .
