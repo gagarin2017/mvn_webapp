@@ -23,8 +23,8 @@ Y: : Y  	<input N here if you want to rekey the inputs above>
 Now you should have your very basic maven web project created. Go to the project's directory:
 
 * cd mvn_webapp
-
-/********** Project structure ***************<br>
+<dl>
+********** Project structure ***************<br>
 |
 --src
   |
@@ -42,9 +42,9 @@ Now you should have your very basic maven web project created. Go to the project
 |
 --pom.xml
 |
---README.md<br>
-/********************************************<br>
-
+--README.md
+********************************************<br>
+</dl>
 Update <build> section of the pom.xml file by adding webapp-runner plugin.
 
 Package the project by executing
