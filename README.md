@@ -61,15 +61,16 @@ Hit Ctrl+C on windows to stop the local server.
 Now to deploy it to Heroku
 
 Create a Procfile
+<dl>
 /************* Contents of the Procfile ***************<br>
 
 web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
 <br>
 /******************************************************* <br>
-
-Add your changes to the Github
-$ git add .
-$ git commit -m "Ready to deploy"
+</dl>
+Add your changes to the Github<br>
+$ git add .<br>
+$ git commit -m "Ready to deploy"<br>
 
 Open Heroku CLI
 
