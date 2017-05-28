@@ -78,5 +78,7 @@ Open Heroku CLI
 
 No go the web interface of the Heroku app. Link the Github resources to the heroku application and deploy the app either automatically or manually through the Heroku web interface.
 
-visit www.heroku.com for more details.
-
+Resources:
+  visit www.heroku.com for more details.
+  https://devcenter.heroku.com/articles/java-webapp-runner
+  
